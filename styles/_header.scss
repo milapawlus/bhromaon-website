@@ -26,3 +26,14 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.header_p {
+    grid-area: 4 / 8 / 5 / 13;
+    font-family: variables.$font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+}
