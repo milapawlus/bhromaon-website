@@ -9,7 +9,7 @@
 }
 
 .header {
-    grid-area: 1 / 1 / 12 / 19;
+    grid-area: 1 / 1 / 13 / 19;
     background-image: url(../images/header_img.png);
     background-size: 100% 100%;
 }
@@ -23,7 +23,7 @@
     line-height: 26px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: variables.$color;
 }
 
 .header_p {
@@ -34,7 +34,7 @@
     font-size: 21px;
     line-height: 26px;
     letter-spacing: 6px;
-    color: #FFFFFF;
+    color: variables.$color;
 }
 
 .search_input {
@@ -63,7 +63,51 @@
     line-height: 26px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: variables.$color;
     background-color: #5474FD;
     border: 2px solid #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-area: 12 / 1 / 13 / 19;
+    background-color: #5474FD;
+
+    & h3 {
+        position: relative;
+        right: 40px;
+        font-family: variables.$font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+
+    & a {
+        text-decoration: none;
+        color: variables.$color;
+    }
+
+    &__list {
+        width: 40%;
+    }
+
+    &__list ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list li {
+        display: inline;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
 }
