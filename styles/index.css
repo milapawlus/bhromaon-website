@@ -7,7 +7,7 @@
   background-color: aqua;
   max-width: 1500px;
   width: 100%;
-  min-height: 300vh;
+  min-height: 500vh;
 }
 
 .header {
@@ -281,6 +281,12 @@
   background-color: #333333;
 }
 
+.section2_icon3, .section2_icon2, .section2_icon1 {
+  position: relative;
+  right: 30px;
+  font-size: 50px;
+}
+
 .section2_heading3, .section2_heading2, .section2_heading1 {
   position: relative;
   right: 30px;
@@ -292,6 +298,15 @@
   color: #E8E8E8;
 }
 
+.section2_icon1 {
+  -ms-grid-row: 27;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 1;
+  grid-area: 27/6/28/7;
+  color: #5474FD;
+}
+
 .section2_heading1 {
   -ms-grid-row: 28;
   -ms-grid-row-span: 1;
@@ -300,12 +315,30 @@
   grid-area: 28/5/29/8;
 }
 
+.section2_icon2 {
+  -ms-grid-row: 27;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 1;
+  grid-area: 27/10/28/11;
+  color: #FF6363;
+}
+
 .section2_heading2 {
   -ms-grid-row: 28;
   -ms-grid-row-span: 1;
   -ms-grid-column: 9;
   -ms-grid-column-span: 3;
   grid-area: 28/9/29/12;
+}
+
+.section2_icon3 {
+  -ms-grid-row: 27;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 14;
+  -ms-grid-column-span: 1;
+  grid-area: 27/14/28/15;
+  color: #00A2FF;
 }
 
 .section2_heading3 {
