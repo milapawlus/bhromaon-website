@@ -950,6 +950,9 @@
   -ms-grid-column: 9;
   -ms-grid-column-span: 3;
   grid-area: 67/9/68/12;
+}
+.footer_heading a {
+  text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 700;

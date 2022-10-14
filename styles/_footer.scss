@@ -5,14 +5,18 @@
 
 .footer_heading {
     grid-area: 67 / 9 / 68 / 12;
-    font-family: variables.$font_jose;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 26px;
-    letter-spacing: 3.36px;
-    text-transform: uppercase;
-    color: variables.$color;
+
+    & a {
+        text-decoration: none;
+        font-family: variables.$font_jose;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3.36px;
+        text-transform: uppercase;
+        color: variables.$color;
+    }
 }
 
 .footer_p {
