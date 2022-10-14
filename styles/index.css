@@ -20,6 +20,23 @@
   background-size: 100% 100%;
 }
 
+.heading_h1 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 4;
+  grid-area: 3/8/4/12;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
