@@ -7,7 +7,7 @@
   background-color: aqua;
   max-width: 1500px;
   width: 100%;
-  min-height: 500vh;
+  min-height: 700vh;
 }
 
 .header {
@@ -186,6 +186,11 @@
   grid-area: 13/1/25/19;
   background-image: url(../images/section1/section1_img.png);
   background-size: 100% 100%;
+}
+
+.section1_img2, .section1_img1 {
+  width: 100%;
+  height: 95%;
 }
 
 .section1_img1 {
@@ -529,6 +534,88 @@
 }
 .section4_btn:hover {
   background-color: black;
+}
+
+.section5 {
+  -ms-grid-row: 54;
+  -ms-grid-row-span: 12;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 18;
+  grid-area: 54/1/66/19;
+  background-image: url(../images/section5/section5_img.png);
+  background-size: 100% 100%;
+}
+
+.section5_heading {
+  -ms-grid-row: 55;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 5;
+  grid-area: 55/8/56/13;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+}
+
+.section5_img1 {
+  -ms-grid-row: 58;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 6;
+  grid-area: 58/3/63/9;
+  width: 100%;
+  height: 100%;
+}
+
+.section5_background {
+  -ms-grid-row: 58;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 7;
+  grid-area: 58/9/63/16;
+  background-color: #333333;
+}
+
+.section5_heading2 {
+  -ms-grid-row: 58;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 2;
+  grid-area: 58/10/59/12;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FEFEFE;
+}
+
+.section5_p {
+  -ms-grid-row: 59;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 6;
+  grid-area: 59/10/62/16;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+
+.section5_i {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #5474FD;
 }
 
 body {
