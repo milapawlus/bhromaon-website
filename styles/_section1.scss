@@ -72,5 +72,40 @@
 
     &:hover {
         background-color: black;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section1_heading {
+        font-size: 20px;
+        line-height: 13px;
+    }
+
+    .section1_p1 {
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: 0.8px;
+    }
+
+    .section1_p2 {
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: 0.8px;
+    }
+
+    .section1_btn {
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: 0.6px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .section1_btn {
+        font-size: 6px;
+        line-height: 8px;
+        letter-spacing: 0.3px;
     }
 }

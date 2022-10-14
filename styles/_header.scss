@@ -67,6 +67,7 @@
 
     &:hover {
         background-color: black;
+        transition: all 0.5s ease-in-out;
     }
 }
 
@@ -136,5 +137,151 @@
 
     &__list a:hover {
         color: black;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .heading_h1 {
+        font-size: 48px;
+        line-height: 26px;
+        letter-spacing: 3px;
+    }
+
+    .header_p {
+        font-size: 21px;
+        line-height: 26px;
+        letter-spacing: 6px;
+    }
+
+    .search_input {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+    }
+
+    .search_btn {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 1.4px;
+    }
+
+    .scroll {
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+    }
+    .nav h3 {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 2.4px;
+    }
+
+    .nav__list li {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .heading_h1 {
+        font-size: 38px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+
+    .header_p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 4px;
+    }
+
+    .search_input {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 1.8px;
+    }
+
+    .search_btn {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .scroll {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 1.8px;
+    }
+    .nav h3 {
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 1.4px;
+    }
+
+    .nav__list li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .heading_h1 {
+        font-size: 24px;
+        line-height: 12px;
+        letter-spacing: 1px;
+    }
+
+    .header_p {
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 2px;
+    }
+
+    .search_input {
+        font-size: 8px;
+        line-height: 10px;
+        letter-spacing: 0.8px;
+    }
+
+    .search_btn {
+        font-size: 8px;
+        line-height: 10px;
+        letter-spacing: 0.8px;
+    }
+
+    .scroll {
+        font-size: 8px;
+        line-height: 10px;
+        letter-spacing: 0.8px;
+    }
+    .nav h3 {
+        font-size: 12px;
+        line-height: 10px;
+        letter-spacing: 0.8px;
+    }
+
+    .nav__list li {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .search_btn {
+        font-size: 4px;
+        line-height: 5px;
+        letter-spacing: 0.4px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .search_btn {
+        font-size: 2px;
+        line-height: 5px;
+        letter-spacing: 0.4px;
     }
 }

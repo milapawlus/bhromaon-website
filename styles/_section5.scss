@@ -55,3 +55,34 @@
     line-height: 26px;
     color: #5474FD;
 }
+
+@media screen and (max-width: 1180px) {
+
+    .section5_heading {
+        font-size: 20px;
+        ine-height: 13px;
+    }
+
+    .section5_heading2 {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .section5_p {
+        font-size: 15px;
+        line-height: 13px;
+    }
+
+    .section5_i {
+        font-size: 20px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .section5_p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}

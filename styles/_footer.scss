@@ -48,3 +48,36 @@
         color: #5474FD;
     }
 }
+
+@media screen and (max-width: 900px) {
+
+    .footer_heading {
+        font-size: 18px;
+        line-height: 13px;
+        letter-spacing: 1.8px;
+    }
+
+    .footer_p {
+        font-size: 12px;
+        line-height: 0.5px;
+        letter-spacing: 0.6px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+
+    .footer_p {
+        font-size: 8px;
+        line-height: 0.3px;
+        letter-spacing: 0.3px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .footer_p {
+        font-size: 6px;
+        line-height: 0.2px;
+        letter-spacing: 0.2px;
+    }
+}
