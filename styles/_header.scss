@@ -7,3 +7,9 @@
     width: 100%;
     min-height: 200vh;
 }
+
+.header {
+    grid-area: 1 / 1 / 10 / 19;
+    background-image: url(../images/header_img.png);
+    background-size: 100% 100%;
+}
