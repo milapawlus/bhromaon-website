@@ -5,12 +5,12 @@
     background-color: aqua;
     max-width: 1500px;
     width: 100%;
-    min-height: 200vh;
+    min-height: 300vh;
 }
 
 .header {
     grid-area: 1 / 1 / 13 / 19;
-    background-image: url(../images/header_img.png);
+    background-image: url(../images/header/header_img.png);
     background-size: 100% 100%;
 }
 

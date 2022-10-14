@@ -7,7 +7,7 @@
   background-color: aqua;
   max-width: 1500px;
   width: 100%;
-  min-height: 200vh;
+  min-height: 300vh;
 }
 
 .header {
@@ -16,7 +16,7 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 18;
   grid-area: 1/1/13/19;
-  background-image: url(../images/header_img.png);
+  background-image: url(../images/header/header_img.png);
   background-size: 100% 100%;
 }
 
@@ -176,6 +176,32 @@
 }
 .nav__list a:hover {
   color: black;
+}
+
+.section1 {
+  -ms-grid-row: 13;
+  -ms-grid-row-span: 12;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 18;
+  grid-area: 13/1/25/19;
+  background-image: url(../images/section1/section1_img.png);
+  background-size: 100% 100%;
+}
+
+.section1_img1 {
+  -ms-grid-row: 15;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 4;
+  grid-area: 15/11/19/15;
+}
+
+.section1_img2 {
+  -ms-grid-row: 19;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 4;
+  grid-area: 19/12/23/16;
 }
 
 body {
