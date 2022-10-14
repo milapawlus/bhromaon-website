@@ -66,6 +66,31 @@
     color: variables.$color;
     background-color: #5474FD;
     border: 2px solid #FFFFFF;
+
+    &:hover {
+        background-color: black;
+    }
+}
+
+.scroll {
+    grid-area: 8 / 9 / 9 / 12;
+    position: relative;
+    left: 30px;
+    font-family: variables.$font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: variables.$color;
+}
+
+.down-arrow {
+    grid-area: 9 / 10 / 10 / 11;
+    position: relative;
+    bottom: 20px;
+    right: 3px;
+    color: variables.$color;
 }
 
 .nav {
@@ -109,5 +134,9 @@
         font-size: 14px;
         line-height: 26px;
         text-transform: uppercase;
+    }
+
+    &__list a:hover {
+        color: black;
     }
 }

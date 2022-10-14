@@ -89,6 +89,38 @@
   background-color: #5474FD;
   border: 2px solid #FFFFFF;
 }
+.search_btn:hover {
+  background-color: black;
+}
+
+.scroll {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 3;
+  grid-area: 8/9/9/12;
+  position: relative;
+  left: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: white;
+}
+
+.down-arrow {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 10;
+  -ms-grid-column-span: 1;
+  grid-area: 9/10/10/11;
+  position: relative;
+  bottom: 20px;
+  right: 3px;
+  color: white;
+}
 
 .nav {
   display: -webkit-box;
@@ -141,6 +173,9 @@
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
+}
+.nav__list a:hover {
+  color: black;
 }
 
 body {
