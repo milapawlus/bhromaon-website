@@ -1,0 +1,50 @@
+.footer {
+    grid-area: 66 / 1 / 70 / 19;
+    background-color: #232323;;
+}
+
+.footer_heading {
+    grid-area: 67 / 9 / 68 / 12;
+    font-family: variables.$font_jose;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: variables.$color;
+}
+
+.footer_p {
+    grid-area: 68 / 8 / 69 / 12;
+    position: relative;
+    left: 5px;
+    font-family:  variables.$font_jose;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    letter-spacing: 1.8px;
+    color: variables.$color;
+}
+
+.footer_icons {
+    grid-area: 69 / 9 / 70 / 11;
+    display: flex;
+    justify-content: space-between;
+
+    & a {
+        color: variables.$color;
+        font-family: 'FontAwesome';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1px;
+        letter-spacing: 1.6px;
+    }
+
+    &_in {
+        color: #5474FD;
+    }
+}
