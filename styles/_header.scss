@@ -16,7 +16,7 @@
 
 .heading_h1 {
     grid-area: 4 / 8 / 5 / 12;
-    font-family: variables.$font;
+    font-family: variables.$font_jose;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -28,7 +28,7 @@
 
 .header_p {
     grid-area: 5 / 8 / 6 / 13;
-    font-family: variables.$font;
+    font-family: variables.$font_jose;
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
@@ -42,7 +42,7 @@
     width: 100%;
     height: 80%;
     text-align: center;
-    font-family: variables.$font;
+    font-family: variables.$font_jose;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -56,7 +56,7 @@
     grid-area: 6 / 12 / 7 / 14;
     width: 100%;
     height: 90%;
-    font-family: 'Aleo';
+    font-family: variables.$font_aleo;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -76,7 +76,7 @@
     grid-area: 8 / 9 / 9 / 12;
     position: relative;
     left: 30px;
-    font-family: variables.$font;
+    font-family: variables.$font_jose;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -102,8 +102,8 @@
 
     & h3 {
         position: relative;
-        right: 40px;
-        font-family: variables.$font;
+        right: 20px;
+        font-family: variables.$font_jose;
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
@@ -128,7 +128,7 @@
 
     &__list li {
         display: inline;
-        font-family: 'Aleo';
+        font-family: variables.$font_aleo;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;

@@ -11,3 +11,59 @@
 .section1_img2 {
     grid-area: 19 / 12 / 23 / 16;
 }
+
+.section1_heading {
+    grid-area: 16 / 3 / 17 / 7;
+    font-family: variables.$font_aleo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: variables.$color;
+}
+
+%section1_p {
+    position: relative;
+    bottom: 20px;
+    font-family: variables.$font_jose;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: variables.$color;
+}
+
+.section1_p1 {
+    @extend %section1_p;
+    grid-area: 18 / 3 / 19 / 10;
+}
+
+.section1_p2 {
+    @extend %section1_p;
+    grid-area: 20 / 3 / 21 / 10;
+}
+
+.section1_btn {
+    grid-area: 22 / 3 / 23 / 6;
+    position: relative;
+    bottom: 20px;
+    background-color: #496BFE;
+    font-family: variables.$font_aleo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    border: none;
+
+    & a {
+        text-decoration: none;
+        color: variables.$color;
+    }
+
+    &:hover {
+        background-color: black;
+    }
+}
