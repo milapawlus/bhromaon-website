@@ -1,0 +1,30 @@
+.section2{
+    grid-area: 25 / 1 / 30 / 19;
+    background-color: #333333;
+}
+
+%section2_heading {
+    position: relative;
+    right: 30px;
+    font-family: variables.$font_aleo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #E8E8E8;
+}
+
+.section2_heading1 {
+    @extend %section2_heading;
+    grid-area: 28 / 5 / 29 / 8;
+}
+
+.section2_heading2 {
+    @extend %section2_heading;
+    grid-area: 28 / 9 / 29 / 12;
+}
+
+.section2_heading3 {
+    @extend %section2_heading;
+    grid-area: 28 / 13 / 29 / 16;
+}
