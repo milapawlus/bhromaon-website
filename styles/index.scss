@@ -1,5 +1,14 @@
+@use 'variables';
+
 @import 'header';
+@import 'section1';
+@import 'section2';
+@import 'section3';
+@import 'section4';
+@import 'section5';
+@import 'footer';
 
 body {
-
+    display: flex;
+    justify-content: center;
 }
